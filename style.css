@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 80%;
+    box-sizing: border-box;
+  }
+
+  body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #2d2d2d;
+      display: flex;
+      justify-content: center;
+      /* text-align: center; */
+      
+    }
+    .main{
+        background-color: white;
+        width: 60%;
+        padding: 2%;
+        overflow-y: auto;
+
+    }
+    
+    .container{
+          /* margin-left: 200px; */
+        text-align: center;
+        margin-top: 20px;
+       
+       
+}
+.fluid-container{
+    padding: 12px;
+}
+
+h4{
+    background-color: slategray;
+    font-size: 1.2rem;
+    opacity: 0.75;
+}
